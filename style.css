@@ -1,0 +1,314 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+    background-color: gainsboro;
+}
+/*============= HEADER ==============*/
+h1{
+    padding: 0;
+    top: 0px;
+    text-align: center;
+    font-family: helvetica;
+    color: darkblue;
+    background-color: lightgreen;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+}
+
+/*============= TOP-TABS ==============*/
+
+#tabs-top{
+    position: fixed;
+    top: 35px;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 40px;
+    background-color: rebeccapurple;
+}
+
+#tabs-top a{
+    float: left;
+    display: block;
+    width: 16.66%;
+    height: 35px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 12px;
+}
+
+/*============= MAIN-HOME    ==============*/
+
+#main-home{
+    margin-top: 75px;
+    margin-bottom: 15px;
+    background: url('images/mall-background.jpg');
+    display: block;
+    background-size:100%;
+}
+
+#content{
+    padding-top: 1px;
+    padding-bottom: 57px;
+}
+
+/*============= FOOTER    ==============*/
+
+#footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 40px;
+    font-weight: 700;
+    color: #ffffff;   
+    background-color: rebeccapurple;
+    text-align: center;
+    padding-bottom: 15px;
+   
+}
+/*================== INFO BOX ==============*/
+
+a.info-box{
+    text-decoration: none;
+    background: rgba(255, 255, 255, .8);
+    width: 90%;
+    height:90px;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 1px;
+}
+
+.info-box img{
+    height: 70px;
+    margin: 10px;
+    float: left;
+}
+
+.info-box h3{
+    padding: 0;
+    margin-bottom: 0;
+    width: 90%;
+    color:#572800;
+}
+
+.info-box p{
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    color: #131313;
+}
+
+.info-box img.right{
+    float: right;
+    margin-top: 25px;
+    height: 40px;
+}
+
+/* Form Styles*/
+h3,h4{
+    color: gray;
+    padding-top: 10px;
+    margin-left: 30px;
+}
+form{
+    background-color: #dbdbdb;
+    padding: 30px 40px;
+    border: 5px solid #666666;
+    margin-left: 20;
+    
+    
+}
+input[type="text"]{
+    width:100%;
+    display:block;
+    box-sizing: border-box;
+    padding: 0 10px;
+    height: 25px;
+}
+
+#message{
+    height: 100px;
+    width: 100%;
+}
+.c1{
+    width: 30%;
+    float: left;
+        
+}
+.sb2{
+    font-family:"Lato", "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    border: 5px solid #666666;
+    background-color: #dbdbdb;
+    padding-left: 20px;
+    float: left;
+    margin-left: 200px;
+}
+
+.th{
+    font-family:"Lato", "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    border: 5px solid #666666;
+    background-color: #dbdbdb;
+    margin-right: 30px;
+    width: 25%;
+    float: right;
+}
+
+#contact{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    
+    display: block;
+    background-size: 100%;
+    width:100%;
+}
+
+/*================== ABOUT ==============*/
+#main-about{
+    margin-top: 75px;
+    margin-left: 0;
+    
+    
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-size:100%;
+    background-color: black;
+}
+
+#main-about p{
+    font-family: helvetica, arial, sans-serif;
+    font-size: 1.5em;
+    color: wheat;
+}
+
+
+/*================== SHOPS ==============*/
+
+#logo{
+    
+    padding: 75px 50px 0px 50px;
+    margin-left: 76px;
+    
+    
+}
+
+#infomation{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#infomation h3{
+    text-align: center;
+}
+
+/*================== MOVIES ==============*/
+#movie-home{
+    margin-top: 75px;
+    margin-bottom: 15px;
+    background: url('images/sk.jpg');
+    display: block;
+    background-size:100%;
+}
+
+a.movie-box{
+    text-decoration: none;
+    background: rgba(255, 255, 255, .8);
+    width: 90%;
+    height:90px;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 10px;
+}
+
+.movie-box img{
+    height: 80px;
+    margin: 10px;
+    float: left;
+}
+
+.movie-box h3{
+    padding: 0;
+    margin-bottom: 0;
+    width: 90%;
+    color: #464648;
+}
+
+.movie-box p{
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    color: darkblue;
+    font-family:cursive;
+    font-size: 20px;
+}
+
+.movie-box img.right{
+    float: right;
+    margin-top: 25px;
+    height: 40px;
+}
+
+#poster{
+    float: left;
+    margin-top: 1px;
+    margin-left: 12px;
+    height: auto;
+}
+
+#main-poster p{
+    color: darkcyan;
+    font-size: 1.2em;
+    margin-left: 500px;
+    margin-right: 230px;
+    letter-spacing: 0.05em;
+}
+
+#main-poster h2{
+    color: firebrick;
+    margin-left: 35%;
+    margin-top: 75px;
+    font-size: 3em;
+    letter-spacing: .1em;
+    
+    
+}
+
+#main-poster ul{
+    color: orange;
+    margin-left: 500px;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+#show-times h5{
+    margin-left: 120px;
+    color: purple;
+    font-size: 1.2em;
+}
+
+#show-times ul{
+    margin-left: 100px;
+    color: dodgerblue;
+}
+
+.dc{
+    background: url('images/backgroundimage-moviepg.jpg');
+    background-repeat:no-repeat;
+    display: block;
+    background-size: 100%;
+    width: 100%;
+    background-color: black;
+}
+
